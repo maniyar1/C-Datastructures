@@ -5,7 +5,7 @@
 #include <alloca.h>
 #include <sys/resource.h>
 
-#define block_size 64 * 1024 * 1024 /* 32MB */
+#define block_size 32 * 1024 * 1024 /* 32MB */
 
 unsigned int bump_pointer = 0;
 
