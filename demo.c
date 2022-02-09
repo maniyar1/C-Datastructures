@@ -16,8 +16,8 @@ int main (int argc, char **argv)
     setElement(&list, 3, 4); 
     setElement(&list, 4, 5); /* Automatic resizing! */
     setElement(&list, 5, 6);
-    setElement(&list, 6, 7);
-    printf("Array 0: %d, Array 1: %d ... n: %d, Array n: %d \n", list.memory[0], list.memory[1], list.length, list.memory[list.length-1]);
+    setElement(&list, 6, 100);
+    printf("Array 0: %d, Array 1: %d ... n: %d, Array n: %d \n", getElement(&list, 0), getElement(&list, 1), list.length, getElement(&list, list.length-1));
     /* Don't worry about freeing, automatically managed! */
 
     return 0;

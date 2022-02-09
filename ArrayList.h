@@ -44,4 +44,8 @@ void setElement(arrayList* list, size_t index, list_type element) {
     }
 }
 
+list_type getElement(arrayList* list, size_t index) {
+    return list->memory[index];
+}
+
 #endif
