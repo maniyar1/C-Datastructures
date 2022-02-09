@@ -4,6 +4,7 @@
 #include <stddef.h>
 #include <alloca.h>
 #include <sys/resource.h>
+#include <stdio.h>
 
 #define block_size 32 * 1024 * 1024 /* 32MB */
 
